@@ -1,0 +1,52 @@
+@media (max-width: 1280px) { /* Estilos padrão para desktops */
+    body {
+        font-size: 16px; /* Corrigido de .body para body */
+    }
+    
+    .login-container { /* Altere .wrapper para .login-container para corresponder ao seu HTML */
+        width: 420px;
+        padding: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) { /* Estilo padrão para tablet */
+    .login-container {
+        width: 100%; /* Altere .wrapper para .login-container */
+        padding: 15px;
+    }
+    
+    .navbar {
+        padding: 10px;
+    }
+    
+    .login-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) { /* Estilo padrão para Celulares */
+    body {
+        font-size: 14px;
+    }
+    
+    .login-container {
+        width: 100%; /* Altere .wrapper para .login-container */
+        padding: 10px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .login-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+    
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+  }

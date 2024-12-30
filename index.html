@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login - SENAI</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">SENAI</div>
+        <nav>
+            <ul>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Processo Seletivo</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <span class="icon">🔍</span>
+            <span class="icon">👤 Alunos</span>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                <button type="submit" class="btn-login">Entrar</button>
+                <p class="register-link">Primeira vez? <a href="#">Cadastre-se</a></p>
+            </form>
+            <div class="social-login">
+                <p>OU</p>
+                <button class="btn-social facebook">Login com Facebook</button>
+                <button class="btn-social google">Login com Google</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/login-form.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
